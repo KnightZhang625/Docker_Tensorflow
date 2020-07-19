@@ -9,7 +9,7 @@ data = json.dumps({
     "instances": args})
 headers = {"content-type": "application/json"}
 json_response = requests.post(
-    'http://localhost:8501/v1/models/toyModel:predict',
+    'http://localhost:8500/v1/models/toyModel:predict',
     data=data, headers=headers)
   
 print(json_response.text)

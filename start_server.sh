@@ -1,4 +1,4 @@
-docker run -p 8501:8501 \
+docker run -p 8500:8500 \
   --mount type=bind,\
 source="$(pwd)/application/toy_model/app_models",\
 target="/models/toyModel" \
